@@ -33,6 +33,7 @@ namespace WpfApp1
         private void Btn_Herstel_Click(object sender, RoutedEventArgs e)
         {
             Lbl_Naam.Content = "Hallo, wat is jouw naam?";
+            TxtBx_Naam.Clear();
         }
     }
 }
