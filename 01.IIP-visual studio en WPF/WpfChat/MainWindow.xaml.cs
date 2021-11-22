@@ -32,6 +32,7 @@ namespace WpfApp2
                 + " says:"
                 + Environment.NewLine
                 + txtbxBericht.Text
+                + Environment.NewLine
                 + Environment.NewLine;
             txtbxNaam.Clear();
             txtbxBericht.Clear();
