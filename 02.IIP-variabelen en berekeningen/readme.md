@@ -1,3 +1,3 @@
 # Introductie in programmeren
 
-## Oefeningen 02.HTML basis
+## Variabelen en berekingen
