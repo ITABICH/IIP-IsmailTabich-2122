@@ -12,3 +12,18 @@ C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\01.IIP-visual studio en W
 C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\01.IIP-visual studio en WPF\01.IIP-visual studio en WPF\ConsoleGedicht\obj\Debug\net6.0\ref\ConsoleGedicht.dll
 C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\01.IIP-visual studio en WPF\01.IIP-visual studio en WPF\ConsoleGedicht\obj\Debug\net6.0\ConsoleGedicht.pdb
 C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\01.IIP-visual studio en WPF\01.IIP-visual studio en WPF\ConsoleGedicht\obj\Debug\net6.0\ConsoleGedicht.genruntimeconfig.cache
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\01.IIP-visual studio en WPF\ConsoleGedicht\bin\Debug\net6.0\ConsoleGedicht.exe
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\01.IIP-visual studio en WPF\ConsoleGedicht\bin\Debug\net6.0\ConsoleGedicht.deps.json
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\01.IIP-visual studio en WPF\ConsoleGedicht\bin\Debug\net6.0\ConsoleGedicht.runtimeconfig.json
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\01.IIP-visual studio en WPF\ConsoleGedicht\bin\Debug\net6.0\ConsoleGedicht.dll
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\01.IIP-visual studio en WPF\ConsoleGedicht\bin\Debug\net6.0\ref\ConsoleGedicht.dll
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\01.IIP-visual studio en WPF\ConsoleGedicht\bin\Debug\net6.0\ConsoleGedicht.pdb
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\01.IIP-visual studio en WPF\ConsoleGedicht\obj\Debug\net6.0\ConsoleGedicht.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\01.IIP-visual studio en WPF\ConsoleGedicht\obj\Debug\net6.0\ConsoleGedicht.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\01.IIP-visual studio en WPF\ConsoleGedicht\obj\Debug\net6.0\ConsoleGedicht.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\01.IIP-visual studio en WPF\ConsoleGedicht\obj\Debug\net6.0\ConsoleGedicht.AssemblyInfo.cs
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\01.IIP-visual studio en WPF\ConsoleGedicht\obj\Debug\net6.0\ConsoleGedicht.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\01.IIP-visual studio en WPF\ConsoleGedicht\obj\Debug\net6.0\ConsoleGedicht.dll
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\01.IIP-visual studio en WPF\ConsoleGedicht\obj\Debug\net6.0\ref\ConsoleGedicht.dll
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\01.IIP-visual studio en WPF\ConsoleGedicht\obj\Debug\net6.0\ConsoleGedicht.pdb
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\01.IIP-visual studio en WPF\ConsoleGedicht\obj\Debug\net6.0\ConsoleGedicht.genruntimeconfig.cache

@@ -7,4 +7,22 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Fotos\BbqGrill.jpg" />
+    <None Remove="Fotos\Hot&amp;Spicy.jpg" />
+    <None Remove="Fotos\Tonno.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fotos\BbqGrill.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fotos\Hot&amp;Spicy.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fotos\Tonno.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
 </Project>

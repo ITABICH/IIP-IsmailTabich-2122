@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\ITABICH\\IIP-IsmailTabich-2122\\01.IIP-visual studio en WPF\\WpfHelloWorld\\WpfChat.csproj",
-      "projectName": "WpfChat",
-      "projectPath": "C:\\Users\\HP\\source\\repos\\ITABICH\\IIP-IsmailTabich-2122\\01.IIP-visual studio en WPF\\WpfHelloWorld\\WpfChat.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\ITABICH\\IIP-IsmailTabich-2122\\01.IIP-visual studio en WPF\\WpfHelloWorld\\WpfHelloWorld.csproj",
+      "projectName": "WpfHelloWorld",
+      "projectPath": "C:\\Users\\HP\\source\\repos\\ITABICH\\IIP-IsmailTabich-2122\\01.IIP-visual studio en WPF\\WpfHelloWorld\\WpfHelloWorld.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\HP\\source\\repos\\ITABICH\\IIP-IsmailTabich-2122\\01.IIP-visual studio en WPF\\WpfHelloWorld\\obj\\",
       "projectStyle": "PackageReference",

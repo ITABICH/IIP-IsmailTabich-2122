@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfApp1
+namespace WpfApp2
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -25,14 +25,16 @@ namespace WpfApp1
             InitializeComponent();
         }
 
-        private void Btn_Naam_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Lbl_Naam.Content = "Hallo, " + TxtBx_Naam.Text;
-        }
-
-        private void Btn_Herstel_Click(object sender, RoutedEventArgs e)
-        {
-            Lbl_Naam.Content = "Hallo, wat is jouw naam?";
+            TxtBlk_Chat.Text = TxtBlk_Chat.Text
+                + TxtBx_Naam.Text
+                + " says:"
+                + Environment.NewLine
+                + TxtBx_Bericht.Text
+                + Environment.NewLine;
+            TxtBx_Naam.Clear();
+            TxtBx_Bericht.Clear();
         }
     }
 }

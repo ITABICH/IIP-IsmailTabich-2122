@@ -12,7 +12,11 @@ class GreenHouse
         string basis = Console.ReadLine();
         Console.Write("Kies een soort (vegan, zalm of kip):");
         string soort = Console.ReadLine();
-        Console.WriteLine("Je besteling: een " + grootte + " " + basis + " met " + soort);
+        Console.WriteLine($"Je besteling: een {grootte} {basis} met {soort}");
         Console.ReadKey();
+
+        //Of 
+        //Console.WriteLine("Je besteling: een" + grootte + " " + basis + " met " + soort);
+
     }
 }

@@ -8,7 +8,7 @@
         Title="MainWindow" Height="250" Width="1050" Background="LightBlue">
     <Grid>
         <Slider x:Name="Sld_VolumeSlider" HorizontalAlignment="Left" Height="44" Margin="20,0,0,0" VerticalAlignment="Center" Width="1000" ValueChanged="Slider_ValueChanged" Minimum="0" Maximum="100" Value="0" IsSnapToTickEnabled="True" TickFrequency="5"/>
-        <Label x:Name="lbl_Volume" Content="" HorizontalAlignment="Center" Margin="0,144,0,0" VerticalAlignment="Top" Height="61" Width="250" FontSize="36" HorizontalContentAlignment="Center" Background="Beige"/>
+        <Label x:Name="lbl_Volume" Content="Volume: 0" HorizontalAlignment="Center" Margin="0,144,0,0" VerticalAlignment="Top" Height="61" Width="250" FontSize="36" HorizontalContentAlignment="Center" Background="Beige"/>
 
     </Grid>
 </Window>

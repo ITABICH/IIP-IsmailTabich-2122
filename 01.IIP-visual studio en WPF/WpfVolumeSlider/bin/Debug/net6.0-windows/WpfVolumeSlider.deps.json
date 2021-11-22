@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "WpfVolumeSlider/1.0.0": {
+        "runtime": {
+          "WpfVolumeSlider.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WpfVolumeSlider/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

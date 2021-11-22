@@ -28,20 +28,19 @@ namespace WpfApp4
         private void Rbtn_Spicy_Checked(object sender, RoutedEventArgs e)
         {
             TxtBlk_Ingredienten.Text = "Tomatensaus, mozzarella, ui, kip, paprika, pepperoni & spaanse pepers";
-            imgPizza.Source = new BitmapImage(new Uri("Photos/HotAndSpicy.jpg", UriKind.Relative));
+            imgPizza.Source = new BitmapImage(new Uri("Fotos/Hot&Spicy.jpg", UriKind.Relative)); 
         }
 
         private void Rbtn_Tonno_Checked(object sender, RoutedEventArgs e)
         {
             TxtBlk_Ingredienten.Text = "Tomatensaus, mozzarella, tonijn, rode ui, zwarte olijven & verse spinazie";
-            imgPizza.Source = new BitmapImage(new Uri("Photos/Tonno.jpg", UriKind.Relative));
-
+            imgPizza.Source = new BitmapImage(new Uri("Fotos/Tonno.jpg", UriKind.Relative));
+            
         }
-
         private void Rbtn_BbqGrill_Checked(object sender, RoutedEventArgs e)
         {
             TxtBlk_Ingredienten.Text = "BBQ saus, mozzarella, ui, gehakt, bacon & een swirl heerlijke BBQ saus";
-            imgPizza.Source = new BitmapImage(new Uri("Photos/Tonno.jpg", UriKind.Relative));
+            imgPizza.Source = new BitmapImage(new Uri("Fotos/BbqGrill.jpg", UriKind.Relative));
 
         }
     }

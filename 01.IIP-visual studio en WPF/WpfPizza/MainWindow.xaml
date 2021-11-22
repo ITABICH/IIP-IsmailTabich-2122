@@ -8,11 +8,11 @@
         Title="MainWindow" Height="450" Width="1400" Background="Beige">
     <Grid>
         <Label Content="BESTEL JE PIZZA !" HorizontalAlignment="Left" Height="73" Margin="89,40,0,0" VerticalAlignment="Top" Width="379" FontSize="48"/>
-        <RadioButton x:Name="Rbtn_Spicy" Content="RadioButton" HorizontalAlignment="Left" Margin="89,163,0,0" VerticalAlignment="Top" Height="42" Width="172" Checked="Rbtn_Spicy_Checked" />
-        <RadioButton x:Name="Rbtn_Tonno" Content="RadioButton" HorizontalAlignment="Left" Margin="89,205,0,0" VerticalAlignment="Top" Height="42" Width="172" Checked="Rbtn_Tonno_Checked" />
-        <RadioButton x:Name="Rbtn_BbqGrill" Content="RadioButton" HorizontalAlignment="Left" Margin="89,252,0,0" VerticalAlignment="Top" Height="42" Width="172" Checked="Rbtn_BbqGrill_Checked"/>
-        <Image x:Name="imgPizza" HorizontalAlignment="Left" Height="299" Margin="869,55,0,0" VerticalAlignment="Top" Width="453" Source="Photos/Tonno.jpg" RenderTransformOrigin="0.516,0.384"/>
-        <TextBlock x:Name="TxtBlk_Ingredienten" HorizontalAlignment="Left" Margin="419,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Height="112" Width="281" FontSize="24" Background="Salmon"/>
+        <RadioButton x:Name="Rbtn_Spicy" Content="Pizza Hot en Spicy" HorizontalAlignment="Left" Margin="89,163,0,0" VerticalAlignment="Top" Height="42" Width="172" Checked="Rbtn_Spicy_Checked" />
+        <RadioButton x:Name="Rbtn_Tonno" Content="Pizza Tonno" HorizontalAlignment="Left" Margin="89,205,0,0" VerticalAlignment="Top" Height="42" Width="172" Checked="Rbtn_Tonno_Checked" />
+        <RadioButton x:Name="Rbtn_BbqGrill" Content="Pizza Bbq en Grill" HorizontalAlignment="Left" Margin="89,252,0,0" VerticalAlignment="Top" Height="42" Width="172" Checked="Rbtn_BbqGrill_Checked"/>
+        <Image x:Name="imgPizza" HorizontalAlignment="Left" Height="314" Margin="869,55,0,0" VerticalAlignment="Top" Width="450" RenderTransformOrigin="0.516,0.384" />
+        <TextBlock x:Name="TxtBlk_Ingredienten" HorizontalAlignment="Left" Margin="278,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Height="112" Width="422" FontSize="24" Background="Salmon"/>
 
     </Grid>
 </Window>
