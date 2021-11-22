@@ -1,3 +1,3 @@
-# Basic Web Development
+# Introductie in programmeren
 
-## Oefeningen 07.CSS Designs
+## Collecties
