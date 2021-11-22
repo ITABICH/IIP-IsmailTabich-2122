@@ -25,21 +25,21 @@ namespace WpfApp4
             InitializeComponent();
         }
 
-        private void Rbtn_Spicy_Checked(object sender, RoutedEventArgs e)
+        private void rbtnSpicy_Checked(object sender, RoutedEventArgs e)
         {
-            TxtBlk_Ingredienten.Text = "Tomatensaus, mozzarella, ui, kip, paprika, pepperoni & spaanse pepers";
+            txtblkIngredienten.Text = "Tomatensaus, mozzarella, ui, kip, paprika, pepperoni & spaanse pepers";
             imgPizza.Source = new BitmapImage(new Uri("Fotos/Hot&Spicy.jpg", UriKind.Relative)); 
         }
 
-        private void Rbtn_Tonno_Checked(object sender, RoutedEventArgs e)
+        private void rbtnTonno_Checked(object sender, RoutedEventArgs e)
         {
-            TxtBlk_Ingredienten.Text = "Tomatensaus, mozzarella, tonijn, rode ui, zwarte olijven & verse spinazie";
+            txtblkIngredienten.Text = "Tomatensaus, mozzarella, tonijn, rode ui, zwarte olijven & verse spinazie";
             imgPizza.Source = new BitmapImage(new Uri("Fotos/Tonno.jpg", UriKind.Relative));
             
         }
-        private void Rbtn_BbqGrill_Checked(object sender, RoutedEventArgs e)
+        private void rbtnBbqGrill_Checked(object sender, RoutedEventArgs e)
         {
-            TxtBlk_Ingredienten.Text = "BBQ saus, mozzarella, ui, gehakt, bacon & een swirl heerlijke BBQ saus";
+            txtblkIngredienten.Text = "BBQ saus, mozzarella, ui, gehakt, bacon & een swirl heerlijke BBQ saus";
             imgPizza.Source = new BitmapImage(new Uri("Fotos/BbqGrill.jpg", UriKind.Relative));
 
         }

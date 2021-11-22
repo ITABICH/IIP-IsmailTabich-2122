@@ -23,14 +23,14 @@ namespace WpfApp3
         public MainWindow()
         {
             InitializeComponent();
-            //Sld_VolumeSlider.Value = 5;
+            //sldVolumeSlider.Value = 5;
         }
 
         private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-            lbl_Volume.Content = $"Volume: " + (Sld_VolumeSlider.Value);
+            lblVolume.Content = $"Volume: " + (sldVolumeSlider.Value);
             //Of
-            // lbl_Volume.Content = "Volume: " + Math.Round(Sld_VolumeSlider.Value);
+            // lblVolume.Content = "Volume: " + Math.Round(Sld_VolumeSlider.Value);
 
         }
     }

@@ -27,14 +27,14 @@ namespace WpfApp2
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            TxtBlk_Chat.Text = TxtBlk_Chat.Text
-                + TxtBx_Naam.Text
+            txtblkChat.Text = txtblkChat.Text
+                + txtbxNaam.Text
                 + " says:"
                 + Environment.NewLine
-                + TxtBx_Bericht.Text
+                + txtbxBericht.Text
                 + Environment.NewLine;
-            TxtBx_Naam.Clear();
-            TxtBx_Bericht.Clear();
+            txtbxNaam.Clear();
+            txtbxBericht.Clear();
         }
     }
 }

@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="1000">
     <Grid>
-        <Label x:Name="Lbl_Naam" Content="Hallo, wat is jouw naam?" HorizontalAlignment="Left" Margin="50,75,0,0" VerticalAlignment="Top" Height="57" Width="450" FontSize="36"/>
-        <TextBox x:Name="TxtBx_Naam" HorizontalAlignment="Left" Margin="50,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="450" Height="53" FontSize="36"/>
-        <Button x:Name="Btn_Naam" Content="Ok" HorizontalAlignment="Left" Margin="583,199,0,0" VerticalAlignment="Top" Height="53" Width="90" RenderTransformOrigin="0.132,0.562" FontSize="36" Click="Btn_Naam_Click"/>
-        <Button x:Name="Btn_Herstel" Content="Herstel" HorizontalAlignment="Left" Height="53" Margin="697,199,0,0" VerticalAlignment="Top" Width="243" FontSize="36" Click="Btn_Herstel_Click"/>
+        <Label x:Name="lblNaam" Content="Hallo, wat is jouw naam?" HorizontalAlignment="Left" Margin="50,75,0,0" VerticalAlignment="Top" Height="57" Width="450" FontSize="36"/>
+        <TextBox x:Name="txtbxNaam" HorizontalAlignment="Left" Margin="50,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="450" Height="53" FontSize="36"/>
+        <Button x:Name="btnNaam" Content="Ok" HorizontalAlignment="Left" Margin="583,199,0,0" VerticalAlignment="Top" Height="53" Width="90" RenderTransformOrigin="0.132,0.562" FontSize="36" Click="Btn_Naam_Click"/>
+        <Button x:Name="btnHerstel" Content="Herstel" HorizontalAlignment="Left" Height="53" Margin="697,199,0,0" VerticalAlignment="Top" Width="243" FontSize="36" Click="Btn_Herstel_Click"/>
 
     </Grid>
 </Window>

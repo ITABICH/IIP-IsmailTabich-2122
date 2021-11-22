@@ -25,15 +25,15 @@ namespace WpfApp1
             InitializeComponent();
         }
 
-        private void Btn_Naam_Click(object sender, RoutedEventArgs e)
+        private void btnNaam_Click(object sender, RoutedEventArgs e)
         {
-            Lbl_Naam.Content = "Hallo, " + TxtBx_Naam.Text;
+            lblNaam.Content = "Hallo, " + txtbxNaam.Text;
         }
 
-        private void Btn_Herstel_Click(object sender, RoutedEventArgs e)
+        private void btnHerstel_Click(object sender, RoutedEventArgs e)
         {
-            Lbl_Naam.Content = "Hallo, wat is jouw naam?";
-            TxtBx_Naam.Clear();
+            lblNaam.Content = "Hallo, wat is jouw naam?";
+            txtbxNaam.Clear();
         }
     }
 }

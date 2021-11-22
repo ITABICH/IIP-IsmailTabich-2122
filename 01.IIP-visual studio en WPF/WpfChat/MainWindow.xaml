@@ -11,11 +11,11 @@
             <ColumnDefinition Width="453*"/>
             <ColumnDefinition Width="547*"/>
         </Grid.ColumnDefinitions>
-        <Label x:Name="Lbl_Naam" Content="Naam:" HorizontalAlignment="Left" Margin="40,38,0,0" VerticalAlignment="Top" Height="42" Width="85" FontSize="22"/>
-        <Label x:Name="Lbl_Bericht" Content="Bericht:" HorizontalAlignment="Left" Margin="40,118,0,0" VerticalAlignment="Top" Height="42" Width="85" FontSize="22" RenderTransformOrigin="0.649,2.699"/>
-        <TextBox x:Name="TxtBx_Naam" HorizontalAlignment="Left" Height="42" Margin="167,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="370" FontSize="24" Grid.ColumnSpan="2"/>
-        <TextBox x:Name="TxtBx_Bericht" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="301" Margin="167,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="370" FontSize="24"/>
-        <TextBlock x:Name="TxtBlk_Chat" Grid.Column="1" HorizontalAlignment="Left" Height="457" Margin="163,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="345" Background="White" FontSize="24"/>
+        <Label Content="Naam:" HorizontalAlignment="Left" Margin="40,38,0,0" VerticalAlignment="Top" Height="42" Width="85" FontSize="22"/>
+        <Label Content="Bericht:" HorizontalAlignment="Left" Margin="40,118,0,0" VerticalAlignment="Top" Height="42" Width="85" FontSize="22" RenderTransformOrigin="0.649,2.699"/>
+        <TextBox x:Name="txtbxNaam" HorizontalAlignment="Left" Height="42" Margin="167,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="370" FontSize="24" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="txtbxBericht" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="301" Margin="167,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="370" FontSize="24"/>
+        <TextBlock x:Name="txtblkChat" Grid.Column="1" HorizontalAlignment="Left" Height="457" Margin="163,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="345" Background="White" FontSize="24"/>
         <Button Content="VERZENDEN" HorizontalAlignment="Left" Margin="368,458,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="56" Width="169" FontSize="24" Click="Button_Click"/>
     </Grid>
 </Window>
