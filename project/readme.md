@@ -1,6 +1,3 @@
-# Basic Web Development
+# Introductie in programmeren
 
 ## Project
-
-link naar online versie: 
-link naar CSS template:
