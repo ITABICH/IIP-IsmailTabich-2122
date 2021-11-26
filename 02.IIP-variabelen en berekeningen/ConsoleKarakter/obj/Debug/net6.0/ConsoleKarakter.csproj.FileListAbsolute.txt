@@ -1,0 +1,15 @@
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleKarakter\bin\Debug\net6.0\ConsoleKarakter.exe
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleKarakter\bin\Debug\net6.0\ConsoleKarakter.deps.json
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleKarakter\bin\Debug\net6.0\ConsoleKarakter.runtimeconfig.json
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleKarakter\bin\Debug\net6.0\ConsoleKarakter.dll
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleKarakter\bin\Debug\net6.0\ref\ConsoleKarakter.dll
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleKarakter\bin\Debug\net6.0\ConsoleKarakter.pdb
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleKarakter\obj\Debug\net6.0\ConsoleKarakter.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleKarakter\obj\Debug\net6.0\ConsoleKarakter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleKarakter\obj\Debug\net6.0\ConsoleKarakter.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleKarakter\obj\Debug\net6.0\ConsoleKarakter.AssemblyInfo.cs
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleKarakter\obj\Debug\net6.0\ConsoleKarakter.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleKarakter\obj\Debug\net6.0\ConsoleKarakter.dll
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleKarakter\obj\Debug\net6.0\ref\ConsoleKarakter.dll
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleKarakter\obj\Debug\net6.0\ConsoleKarakter.pdb
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleKarakter\obj\Debug\net6.0\ConsoleKarakter.genruntimeconfig.cache

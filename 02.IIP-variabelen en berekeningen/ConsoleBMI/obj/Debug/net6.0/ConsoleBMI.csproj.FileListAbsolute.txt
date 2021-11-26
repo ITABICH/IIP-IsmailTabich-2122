@@ -13,3 +13,18 @@ C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\01.IIP-visual studio en W
 C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\01.IIP-visual studio en WPF\02.IIP-variabelen en berekeningen\ConsoleBMI\obj\Debug\net6.0\ref\ConsoleBMI.dll
 C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\01.IIP-visual studio en WPF\02.IIP-variabelen en berekeningen\ConsoleBMI\obj\Debug\net6.0\ConsoleBMI.pdb
 C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\01.IIP-visual studio en WPF\02.IIP-variabelen en berekeningen\ConsoleBMI\obj\Debug\net6.0\ConsoleBMI.genruntimeconfig.cache
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleBMI\bin\Debug\net6.0\ConsoleBMI.exe
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleBMI\bin\Debug\net6.0\ConsoleBMI.deps.json
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleBMI\bin\Debug\net6.0\ConsoleBMI.runtimeconfig.json
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleBMI\bin\Debug\net6.0\ConsoleBMI.dll
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleBMI\bin\Debug\net6.0\ref\ConsoleBMI.dll
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleBMI\bin\Debug\net6.0\ConsoleBMI.pdb
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleBMI\obj\Debug\net6.0\ConsoleBMI.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleBMI\obj\Debug\net6.0\ConsoleBMI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleBMI\obj\Debug\net6.0\ConsoleBMI.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleBMI\obj\Debug\net6.0\ConsoleBMI.AssemblyInfo.cs
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleBMI\obj\Debug\net6.0\ConsoleBMI.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleBMI\obj\Debug\net6.0\ConsoleBMI.dll
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleBMI\obj\Debug\net6.0\ref\ConsoleBMI.dll
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleBMI\obj\Debug\net6.0\ConsoleBMI.pdb
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleBMI\obj\Debug\net6.0\ConsoleBMI.genruntimeconfig.cache
