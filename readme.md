@@ -1,4 +1,4 @@
-# Basic Web Development
+# Introductie in programmeren
 
 - Academiejaar: 2021 - 2020
 - Opleiding: Graduaat informatica
