@@ -31,20 +31,20 @@ namespace WpfAlcohol
         private void sldBier_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
             txtBier.Text = sldBier.Value + " glazen";
-            rctAlcoholGehalte.Width = sldBier.Value;
+            rctAlcoholGehalte.Width = Math.Round(sldBier.Value);
         }
 
         private void sldWijn_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
             txtWijn.Text = sldWijn.Value + " glazen";
-            rctAlcoholGehalte.Width = rctAlcoholGehalte.Width + sldWijn.Value;
+            rctAlcoholGehalte.Width = rctAlcoholGehalte.Width + Math.Round(sldWijn.Value);
         }
 
         private void sldSterkeDrank_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
             
             txtSterkeDrank.Text = sldSterkeDrank.Value + " glazen";
-            rctAlcoholGehalte.Width = rctAlcoholGehalte.Width + sldSterkeDrank.Value;
+            rctAlcoholGehalte.Width = rctAlcoholGehalte.Width + Math.Round(sldSterkeDrank.Value);
         }
     }
 }
