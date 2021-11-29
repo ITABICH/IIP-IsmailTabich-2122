@@ -46,7 +46,7 @@ namespace WpfWinkel
 
         private void btnBanaan_Click(object sender, RoutedEventArgs e)
         {
-            int voorraadBanaan = Convert.ToInt32(lblVoorraadBanaan.Content)
+            int voorraadBanaan = Convert.ToInt32(lblVoorraadBanaan.Content);
             lblVoorraadBanaan.Content = voorraadBanaan - 1;
             lstBxVerkocht.Items.Add($"{PRIJS_BANAAN} - 1 tros banaan");
 
