@@ -1,0 +1,15 @@
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleHms\bin\Debug\net6.0\ConsoleHms.exe
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleHms\bin\Debug\net6.0\ConsoleHms.deps.json
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleHms\bin\Debug\net6.0\ConsoleHms.runtimeconfig.json
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleHms\bin\Debug\net6.0\ConsoleHms.dll
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleHms\bin\Debug\net6.0\ref\ConsoleHms.dll
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleHms\bin\Debug\net6.0\ConsoleHms.pdb
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleHms\obj\Debug\net6.0\ConsoleHms.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleHms\obj\Debug\net6.0\ConsoleHms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleHms\obj\Debug\net6.0\ConsoleHms.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleHms\obj\Debug\net6.0\ConsoleHms.AssemblyInfo.cs
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleHms\obj\Debug\net6.0\ConsoleHms.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleHms\obj\Debug\net6.0\ConsoleHms.dll
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleHms\obj\Debug\net6.0\ref\ConsoleHms.dll
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleHms\obj\Debug\net6.0\ConsoleHms.pdb
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\02.IIP-variabelen en berekeningen\ConsoleHms\obj\Debug\net6.0\ConsoleHms.genruntimeconfig.cache
