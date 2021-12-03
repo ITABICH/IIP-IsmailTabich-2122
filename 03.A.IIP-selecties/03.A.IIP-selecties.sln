@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfSliderKleur", "WpfSliderKleur\WpfSliderKleur.csproj", "{31AFC568-9576-4E5F-BECB-D54CEA78FDC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleRaden", "ConsoleRaden\ConsoleRaden.csproj", "{932F77F0-9712-45FA-9A09-F53392AF2BF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleRaden", "ConsoleRaden\ConsoleRaden.csproj", "{932F77F0-9712-45FA-9A09-F53392AF2BF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
