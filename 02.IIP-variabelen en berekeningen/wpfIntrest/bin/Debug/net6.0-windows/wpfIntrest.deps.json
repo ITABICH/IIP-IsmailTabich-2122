@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "wpfIntrest/1.0.0": {
+      "WpfIntrest/1.0.0": {
         "runtime": {
-          "wpfIntrest.dll": {}
+          "WpfIntrest.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "wpfIntrest/1.0.0": {
+    "WpfIntrest/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

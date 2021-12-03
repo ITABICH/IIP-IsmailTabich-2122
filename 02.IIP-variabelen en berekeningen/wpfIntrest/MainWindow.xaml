@@ -15,7 +15,7 @@
         <Label Content="euro" HorizontalAlignment="Left" Height="26" Margin="290,73,0,0" VerticalAlignment="Top" Width="46"/>
         <Label Content="%" HorizontalAlignment="Left" Height="26" Margin="290,104,0,0" VerticalAlignment="Top" Width="46"/>
         <Label Content="Periode: " HorizontalAlignment="Left" Margin="26,135,0,0" VerticalAlignment="Top" Width="56"/>
-        <Slider x:Name="sldJaar" Minimum="0" Maximum="20" Value="0" IsSnapToTickEnabled="True" TickFrequency="1" HorizontalAlignment="Left" ValueChanged="sldJaar_ValueChanged" Margin="113,139,0,0" VerticalAlignment="Top" Width="172"/>
+        <Slider x:Name="sldJaar" Minimum="0" Maximum="10" Value="0" IsSnapToTickEnabled="True" TickFrequency="1" HorizontalAlignment="Left" ValueChanged="sldJaar_ValueChanged" Margin="113,139,0,0" VerticalAlignment="Top" Width="172"/>
         <Label x:Name="lblJaar" Content="" HorizontalAlignment="Left" Height="26" Margin="290,135,0,0" VerticalAlignment="Top" Width="46"/>
         <Button x:Name="btnBerekenen" Content="BEREKENEN" HorizontalAlignment="Left" Height="42" Margin="82,175,0,0" VerticalAlignment="Top" Width="203" FontSize="20" FontWeight="Bold" Click="btnBerekenen_Click"/>
         <Label x:Name="lblWaarde" Content="" HorizontalAlignment="Left" Height="25" Margin="26,250,0,0" VerticalAlignment="Top" Width="299"/>

@@ -19,10 +19,16 @@
         int restMinuten = restUren % 60;
 
         //Berekening in seconden
-        int seconden = restMinuten / 1; 
+        int seconden = restMinuten / 1;
 
         //Het omzet van seconden naar uren minuten en seconden
-        Console.Write($"Omgezet in hms formaat: {uren}:{minuten}:{seconden} ");
+        Console.Write($"Omgezet in hms formaat:");
+        Console.WriteLine(Convert.ToString(uren).PadLeft(2, '0') +
+            ":" + 
+            Convert.ToString(minuten).PadLeft(2,'0') + 
+            ":" + 
+            Convert.ToString(seconden).PadLeft(2,'0'));
+        Console.ReadKey();
 
     }
 }

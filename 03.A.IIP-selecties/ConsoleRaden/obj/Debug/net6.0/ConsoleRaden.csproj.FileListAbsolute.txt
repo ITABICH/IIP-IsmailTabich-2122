@@ -1,0 +1,15 @@
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\03.A.IIP-selecties\ConsoleRaden\obj\Debug\net6.0\ConsoleRaden.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\03.A.IIP-selecties\ConsoleRaden\obj\Debug\net6.0\ConsoleRaden.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\03.A.IIP-selecties\ConsoleRaden\obj\Debug\net6.0\ConsoleRaden.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\03.A.IIP-selecties\ConsoleRaden\obj\Debug\net6.0\ConsoleRaden.AssemblyInfo.cs
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\03.A.IIP-selecties\ConsoleRaden\obj\Debug\net6.0\ConsoleRaden.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\03.A.IIP-selecties\ConsoleRaden\bin\Debug\net6.0\ConsoleRaden.exe
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\03.A.IIP-selecties\ConsoleRaden\bin\Debug\net6.0\ConsoleRaden.deps.json
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\03.A.IIP-selecties\ConsoleRaden\bin\Debug\net6.0\ConsoleRaden.runtimeconfig.json
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\03.A.IIP-selecties\ConsoleRaden\bin\Debug\net6.0\ConsoleRaden.dll
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\03.A.IIP-selecties\ConsoleRaden\bin\Debug\net6.0\ref\ConsoleRaden.dll
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\03.A.IIP-selecties\ConsoleRaden\bin\Debug\net6.0\ConsoleRaden.pdb
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\03.A.IIP-selecties\ConsoleRaden\obj\Debug\net6.0\ConsoleRaden.dll
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\03.A.IIP-selecties\ConsoleRaden\obj\Debug\net6.0\ref\ConsoleRaden.dll
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\03.A.IIP-selecties\ConsoleRaden\obj\Debug\net6.0\ConsoleRaden.pdb
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\03.A.IIP-selecties\ConsoleRaden\obj\Debug\net6.0\ConsoleRaden.genruntimeconfig.cache

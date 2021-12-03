@@ -43,7 +43,8 @@ namespace WpfIntrest
             lblWaarde.Content = bedrag * interestPeriode ;
 
             //De inhoud van lblWaarde met de uitkomst van de berekening en het jaar
-            lblWaarde.Content = $"De waarde na {sldJaar.Value} jaar bedraagt €{lblWaarde.Content = Math.Round(Convert.ToDouble(lblWaarde.Content), 2)}";
+            lblWaarde.Content = $"De waarde na {sldJaar.Value}" +
+                $" jaar bedraagt €{lblWaarde.Content = Math.Round(Convert.ToDouble(lblWaarde.Content), 2)}";
         }
 
         private void sldJaar_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
