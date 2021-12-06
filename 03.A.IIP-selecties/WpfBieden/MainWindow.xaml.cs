@@ -22,7 +22,7 @@ namespace WpfBieden
     {
         int hoogsteBod;
         string hoogsteBieder;
-         
+
 
         public MainWindow()
         {
@@ -35,28 +35,35 @@ namespace WpfBieden
             int bod;
             string bieder;
 
+
             bieder = txtbxNaam.Text;
 
             bod = Convert.ToInt32(txtbxBod.Text);
 
-            lblHoogsteBod.Content = $"{bieder} heeft met {bod} euro nu het hoogste bod!";   
 
-            if (hoogsteBod > bod)
+            lblHoogsteBod.Content = $"{bieder} heeft met {bod} euro nu het hoogste bod! ";
+            hoogsteBod = bod;
+            hoogsteBieder = bieder;
+
+
+            int volgendBod;
+            string volgendBieder;
+
+            volgendBieder = txtbxNaam.Text;
+
+            volgendBod = Convert.ToInt32(txtbxBod.Text);
+
+
+            if (hoogsteBod > volgendBod)
             {
                 lblHoogsteBod.Content = $"Sorry, {hoogsteBieder} heeft met {hoogsteBod} euro nu het hoogste bod!";
             }
-            else if (hoogsteBod < bod)
+            else if (hoogsteBod < volgendBod)
             {
-                lblHoogsteBod.Content = $"{bieder} heeft met {bod} euro nu het hoogste bod! ";
-                bieder = hoogsteBieder;
-                bod = hoogsteBod;
+                lblHoogsteBod.Content = $"{volgendBieder} heeft met {volgendBod} euro nu het hoogste bod! ";
+                volgendBieder = hoogsteBieder;
+                volgendBod = hoogsteBod;
             }
-
-
-
-
-
-
         }
     }
 }

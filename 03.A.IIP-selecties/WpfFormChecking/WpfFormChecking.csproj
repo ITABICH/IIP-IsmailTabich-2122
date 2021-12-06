@@ -7,14 +7,4 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Remove="Fotos\Vaas.jpg" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="Fotos\Vaas.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-
 </Project>

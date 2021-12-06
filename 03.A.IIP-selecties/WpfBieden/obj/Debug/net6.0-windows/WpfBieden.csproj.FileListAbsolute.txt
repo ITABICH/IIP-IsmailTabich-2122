@@ -20,3 +20,4 @@ C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\03.A.IIP-selecties\WpfBie
 C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\03.A.IIP-selecties\WpfBieden\obj\Debug\net6.0-windows\ref\WpfBieden.dll
 C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\03.A.IIP-selecties\WpfBieden\obj\Debug\net6.0-windows\WpfBieden.pdb
 C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\03.A.IIP-selecties\WpfBieden\obj\Debug\net6.0-windows\WpfBieden.genruntimeconfig.cache
+C:\Users\HP\source\repos\ITABICH\IIP-IsmailTabich-2122\03.A.IIP-selecties\WpfBieden\bin\Debug\net6.0-windows\Fotos\Vaas.jpg

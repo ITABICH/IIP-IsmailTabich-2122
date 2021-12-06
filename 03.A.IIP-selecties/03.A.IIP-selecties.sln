@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleRaden", "ConsoleRade
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfRaden", "WpfRaden\WpfRaden.csproj", "{04E2BCB2-427B-491B-9C5B-BA8DAED5860D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfBieden", "WpfBieden\WpfBieden.csproj", "{D89DCD14-24FC-4BC7-84B4-F4AB325F5901}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfBieden", "WpfBieden\WpfBieden.csproj", "{D89DCD14-24FC-4BC7-84B4-F4AB325F5901}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfFormChecking", "WpfFormChecking\WpfFormChecking.csproj", "{58E47B72-7EAE-42F6-B207-DF095243EE67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{D89DCD14-24FC-4BC7-84B4-F4AB325F5901}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D89DCD14-24FC-4BC7-84B4-F4AB325F5901}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D89DCD14-24FC-4BC7-84B4-F4AB325F5901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58E47B72-7EAE-42F6-B207-DF095243EE67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58E47B72-7EAE-42F6-B207-DF095243EE67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58E47B72-7EAE-42F6-B207-DF095243EE67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58E47B72-7EAE-42F6-B207-DF095243EE67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
