@@ -11,13 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleKarakter", "ConsoleK
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleHms", "ConsoleHms\ConsoleHms.csproj", "{6D168C0D-CC64-4858-A279-B4009E0459C4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfIntrest", "wpfIntrest\WpfIntrest.csproj", "{FC983FC6-9369-4E76-AEEB-9C5C2696671B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfInterest", "wpfIntrest\WpfInterest.csproj", "{FC983FC6-9369-4E76-AEEB-9C5C2696671B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfWinkel", "WpfWinkel\WpfWinkel.csproj", "{F4F26658-DB0C-480D-8362-D5933EE48C58}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfAlcohol", "WpfAlcohol\WpfAlcohol.csproj", "{8BF5FE13-BB5F-4727-A216-EBB96FF7557E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCalculator", "WpfCalculator\WpfCalculator.csproj", "{0AE5D3DF-FC34-4F12-B5A7-721F6AF819BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfCalculator", "WpfCalculator\WpfCalculator.csproj", "{0AE5D3DF-FC34-4F12-B5A7-721F6AF819BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

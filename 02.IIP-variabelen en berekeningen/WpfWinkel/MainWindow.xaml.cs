@@ -23,13 +23,14 @@ namespace WpfWinkel
         const double PRIJS_BANAAN = 2.25;
         const double PRIJS_BOTER = 3.00;
         const double PRIJS_EIEREN = 2.90;
+        
 
 
         string prijsboter = PRIJS_BOTER.ToString("0.00");
         string prijsbanaan = PRIJS_BANAAN.ToString("0.00");
         string prijseieren = PRIJS_EIEREN.ToString("0.00");
 
-
+        double totaalPrijs;
 
 
         public MainWindow()
@@ -52,7 +53,6 @@ namespace WpfWinkel
 
 
 
-
         }
 
         private void btnBanaan_Click(object sender, RoutedEventArgs e)
@@ -64,6 +64,7 @@ namespace WpfWinkel
 
             lblVoorraadBanaan.Content = voorraadBanaan - 1;
             lstBxVerkocht.Items.Add($"{prijsbanaan} - 1 tros banaan");
+            totaalPrijs += PRIJS_BANAAN;
 
         }
 
@@ -76,6 +77,8 @@ namespace WpfWinkel
 
             lblVoorraadBoter.Content = voorraadBoter - 1;
             lstBxVerkocht.Items.Add($"{prijsboter} - 1 pak boter");
+            totaalPrijs += PRIJS_BOTER;
+            
 
         }
 
@@ -86,6 +89,7 @@ namespace WpfWinkel
 
             lblVoorraadEieren.Content = voorraadEieren - 1;
             lstBxVerkocht.Items.Add($"{prijseieren} - 1 pak boter");
+            totaalPrijs += PRIJS_EIEREN;
         }
 
         private void btnHerstel_Click(object sender, RoutedEventArgs e)
@@ -105,6 +109,11 @@ namespace WpfWinkel
 
         private void btnAfrekenen_Click(object sender, RoutedEventArgs e)
         {
+            double som = totaalPrijs;
+            lblAfrekenen.Content = $"{Math.Round(som,2)} euro";
+
+            lstBxVerkocht.Items.Clear();
+            totaalPrijs = 0;
 
         }
     }

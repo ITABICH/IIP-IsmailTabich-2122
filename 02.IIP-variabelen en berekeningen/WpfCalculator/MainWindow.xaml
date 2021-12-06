@@ -20,18 +20,18 @@
         <Button x:Name="btnTwee" Content="2" HorizontalAlignment="Left" Margin="130,166,0,0" VerticalAlignment="Top" Height="53" RenderTransformOrigin="-0.207,0.319" Width="52" FontSize="24" Click="btnTwee_Click"/>
         <Button x:Name="btnDrie" Content="3" HorizontalAlignment="Center" Margin="0,166,0,0" VerticalAlignment="Top" Height="53" RenderTransformOrigin="-0.207,0.319" Width="52" FontSize="24" Click="btnDrie_Click"/>
         <Button x:Name="btnOptellen" Content="+" HorizontalAlignment="Left" Margin="321,166,0,0" VerticalAlignment="Top" Height="53" RenderTransformOrigin="-0.207,0.319" Width="52" FontSize="24" Click="btnOptellen_Click" />
-        <Button x:Name="btnVierkantswortel" Content="SQR" HorizontalAlignment="Left" Margin="412,161,0,0" VerticalAlignment="Top" Height="53" RenderTransformOrigin="-0.207,0.319" Width="52" FontSize="20"/>
+        <Button x:Name="btnVierkantswortel" Content="SQR" HorizontalAlignment="Left" Margin="412,161,0,0" VerticalAlignment="Top" Height="53" RenderTransformOrigin="-0.207,0.319" Width="52" FontSize="20" Click="btnVierkantswortel_Click"/>
         <Button x:Name="btnVijf" Content="5" HorizontalAlignment="Left" Margin="130,264,0,0" VerticalAlignment="Top" Height="53" RenderTransformOrigin="-0.207,0.319" Width="52" FontSize="24" Click="btnVijf_Click"/>
         <Button x:Name="btnZes" Content="6" HorizontalAlignment="Center" Margin="0,264,0,0" VerticalAlignment="Top" Height="53" RenderTransformOrigin="-0.207,0.319" Width="52" FontSize="24" Click="btnZes_Click"/>
-        <Button x:Name="btnAftrekken" Content="-" HorizontalAlignment="Left" Margin="321,264,0,0" VerticalAlignment="Top" Height="53" RenderTransformOrigin="-0.207,0.319" Width="52" FontSize="24"/>
-        <Button x:Name="btnKwadraat" Content="SQRT" HorizontalAlignment="Left" Margin="412,264,0,0" VerticalAlignment="Top" Height="53" RenderTransformOrigin="-0.207,0.319" Width="52" FontSize="20"/>
+        <Button x:Name="btnAftrekken" Content="-" HorizontalAlignment="Left" Margin="321,264,0,0" VerticalAlignment="Top" Height="53" RenderTransformOrigin="-0.207,0.319" Width="52" FontSize="24" Click="btnAftrekken_Click"/>
+        <Button x:Name="btnKwadraat" Content="SQRT" HorizontalAlignment="Left" Margin="412,264,0,0" VerticalAlignment="Top" Height="53" RenderTransformOrigin="-0.207,0.319" Width="52" FontSize="20" Click="btnKwadraat_Click"/>
         <Button x:Name="btnAcht" Content="8" HorizontalAlignment="Left" Margin="130,2,0,0" VerticalAlignment="Top" Height="53" RenderTransformOrigin="-0.207,0.319" Width="52" FontSize="24" Grid.Row="1" Click="btnAcht_Click"/>
         <Button x:Name="btnNegen" Content="9" HorizontalAlignment="Center" Margin="0,2,0,0" VerticalAlignment="Top" Height="53" RenderTransformOrigin="-0.207,0.319" Width="52" Grid.Row="1" FontSize="24" Click="btnNegen_Click"/>
-        <Button x:Name="btnVermenigvuldigen" Content="*" HorizontalAlignment="Left" Margin="321,2,0,0" VerticalAlignment="Top" Height="53" RenderTransformOrigin="-0.207,0.319" Width="52" Grid.Row="1" FontSize="24"/>
-        <Button x:Name="btnSin" Content="SIN" HorizontalAlignment="Left" Margin="412,2,0,0" VerticalAlignment="Top" Height="53" RenderTransformOrigin="-0.207,0.319" Width="52" Grid.Row="1" FontSize="20"/>
+        <Button x:Name="btnVermenigvuldigen" Content="*" HorizontalAlignment="Left" Margin="321,2,0,0" VerticalAlignment="Top" Height="53" RenderTransformOrigin="-0.207,0.319" Width="52" Grid.Row="1" FontSize="24" Click="btnVermenigvuldigen_Click"/>
+        <Button x:Name="btnSin" Content="SIN" HorizontalAlignment="Left" Margin="412,2,0,0" VerticalAlignment="Top" Height="53" RenderTransformOrigin="-0.207,0.319" Width="52" Grid.Row="1" FontSize="20" Click="btnSin_Click"/>
         <Button x:Name="btnNul" Content="0" HorizontalAlignment="Left" Margin="130,100,0,0" VerticalAlignment="Top" Height="53" RenderTransformOrigin="-0.207,0.319" Width="52" Grid.Row="1" FontSize="24" Click="btnNul_Click"/>
         <Button x:Name="btnWissen" Content="CE" HorizontalAlignment="Center" Margin="0,100,0,0" VerticalAlignment="Top" Height="53" RenderTransformOrigin="-0.207,0.319" Width="52" Grid.Row="1" FontSize="24" Click="btnWissen_Click"/>
-        <Button x:Name="btnDelen" Content="/" HorizontalAlignment="Left" Margin="321,100,0,0" VerticalAlignment="Top" Height="53" RenderTransformOrigin="-0.207,0.319" Width="52" Grid.Row="1" FontSize="24"/>
+        <Button x:Name="btnDelen" Content="/" HorizontalAlignment="Left" Margin="321,100,0,0" VerticalAlignment="Top" Height="53" RenderTransformOrigin="-0.207,0.319" Width="52" Grid.Row="1" FontSize="24" Click="btnDelen_Click"/>
         <Button x:Name="btnRandom" Content="RND" HorizontalAlignment="Left" Margin="412,100,0,0" VerticalAlignment="Top" Height="53" RenderTransformOrigin="-0.207,0.319" Width="52" Grid.Row="1" FontSize="20" Click="btnRandom_Click"/>
 
     </Grid>

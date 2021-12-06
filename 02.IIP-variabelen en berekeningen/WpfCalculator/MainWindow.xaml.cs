@@ -20,17 +20,6 @@ namespace WpfCalculator
     /// </summary>
     public partial class MainWindow : Window
     {
-        const int GETAL_0 = 0;
-        const int GETAL_1 = 1;
-        const int GETAL_2 = 2;
-        const int GETAL_3 = 3;
-        const int GETAL_4 = 4;
-        const int GETAL_5 = 5;
-        const int GETAL_6 = 6;
-        const int GETAL_7 = 7;
-        const int GETAL_8 = 8;
-        const int GETAL_9 = 9;
-        const string KOMMA = ".";
         public MainWindow()
         {
             InitializeComponent();
@@ -38,57 +27,57 @@ namespace WpfCalculator
 
         private void btnEen_Click(object sender, RoutedEventArgs e)
         {
-            txtBxInvoeg.Text = txtBxInvoeg.Text + GETAL_1;
+            txtBxInvoeg.Text = txtBxInvoeg.Text + "1";
         }
 
         private void btnTwee_Click(object sender, RoutedEventArgs e)
         {
-            txtBxInvoeg.Text = txtBxInvoeg.Text + GETAL_2;
+            txtBxInvoeg.Text = txtBxInvoeg.Text + "2";
         }
 
         private void btnDrie_Click(object sender, RoutedEventArgs e)
         {
-            txtBxInvoeg.Text = txtBxInvoeg.Text + GETAL_3;
+            txtBxInvoeg.Text = txtBxInvoeg.Text + "3";
         }
 
         private void btnVier_Click(object sender, RoutedEventArgs e)
         {
-            txtBxInvoeg.Text = txtBxInvoeg.Text + GETAL_4;
+            txtBxInvoeg.Text = txtBxInvoeg.Text + "4";
         }
 
         private void btnVijf_Click(object sender, RoutedEventArgs e)
         {
-            txtBxInvoeg.Text = txtBxInvoeg.Text + GETAL_5;
+            txtBxInvoeg.Text = txtBxInvoeg.Text + "5";
         }
 
         private void btnZes_Click(object sender, RoutedEventArgs e)
         {
-            txtBxInvoeg.Text = txtBxInvoeg.Text + GETAL_6;
+            txtBxInvoeg.Text = txtBxInvoeg.Text + "6";
         }
 
         private void btnZeven_Click(object sender, RoutedEventArgs e)
         {
-            txtBxInvoeg.Text = txtBxInvoeg.Text + GETAL_7;
+            txtBxInvoeg.Text = txtBxInvoeg.Text + "7";
         }
 
         private void btnAcht_Click(object sender, RoutedEventArgs e)
         {
-            txtBxInvoeg.Text = txtBxInvoeg.Text + GETAL_8;
+            txtBxInvoeg.Text = txtBxInvoeg.Text + "8";
         }
 
         private void btnNegen_Click(object sender, RoutedEventArgs e)
         {
-            txtBxInvoeg.Text = txtBxInvoeg.Text + GETAL_9;
+            txtBxInvoeg.Text = txtBxInvoeg.Text + "9";
         }
 
         private void btnNul_Click(object sender, RoutedEventArgs e)
         {
-            txtBxInvoeg.Text = txtBxInvoeg.Text + GETAL_0;
+            txtBxInvoeg.Text = txtBxInvoeg.Text + "0";
         }
 
         private void btnKomma_Click(object sender, RoutedEventArgs e)
         {
-            txtBxInvoeg.Text = txtBxInvoeg.Text + KOMMA;
+            txtBxInvoeg.Text = txtBxInvoeg.Text + ".";
         }
 
         private void btnWissen_Click(object sender, RoutedEventArgs e)
@@ -105,7 +94,61 @@ namespace WpfCalculator
 
         private void btnOptellen_Click(object sender, RoutedEventArgs e)
         {
-            
+            double invoeg = Convert.ToDouble(txtBxInvoeg.Text);
+            double uitkomst = Convert.ToDouble(lblUitkomst.Content);
+            txtBxInvoeg.Text = "";
+            lblUitkomst.Content = uitkomst + invoeg;
         }
+
+        private void btnAftrekken_Click(object sender, RoutedEventArgs e)
+        {
+            double invoeg = Convert.ToDouble(txtBxInvoeg.Text);
+            double uitkomst = Convert.ToDouble(lblUitkomst.Content);
+            txtBxInvoeg.Text = "";
+            lblUitkomst.Content = uitkomst - invoeg;
+        }
+
+        private void btnVermenigvuldigen_Click(object sender, RoutedEventArgs e)
+        {
+            double invoeg = Convert.ToDouble(txtBxInvoeg.Text);
+            double uitkomst = Convert.ToDouble(lblUitkomst.Content);
+            txtBxInvoeg.Text = "";
+            lblUitkomst.Content = uitkomst * invoeg;
+        }
+
+        private void btnDelen_Click(object sender, RoutedEventArgs e)
+        {
+            double invoeg = Convert.ToDouble(txtBxInvoeg.Text);
+            double uitkomst = Convert.ToDouble(lblUitkomst.Content);
+            txtBxInvoeg.Text = "";
+            lblUitkomst.Content = uitkomst / invoeg;
+        }
+
+        private void btnVierkantswortel_Click(object sender, RoutedEventArgs e)
+        {
+            double invoeg = Convert.ToDouble(txtBxInvoeg.Text);
+            double uitkomst = Convert.ToDouble(lblUitkomst.Content);
+            txtBxInvoeg.Text = "";
+            lblUitkomst.Content = Math.Sqrt(invoeg);
+        }
+
+        private void btnKwadraat_Click(object sender, RoutedEventArgs e)
+        {
+            double invoeg = Convert.ToDouble(txtBxInvoeg.Text);
+            double uitkomst = Convert.ToDouble(lblUitkomst.Content);
+            txtBxInvoeg.Text = "";
+            lblUitkomst.Content = Math.Pow(invoeg,2);
+        }
+
+        private void btnSin_Click(object sender, RoutedEventArgs e)
+        {
+            double invoeg = Convert.ToDouble(txtBxInvoeg.Text);
+            double uitkomst = Convert.ToDouble(lblUitkomst.Content);
+            txtBxInvoeg.Text = "";
+            lblUitkomst.Content = Math.Sin(invoeg);
+        }
+
+
     }
+
 }

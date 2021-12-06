@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\ITABICH\\IIP-IsmailTabich-2122\\02.IIP-variabelen en berekeningen\\wpfIntrest\\wpfIntrest.csproj",
-      "projectName": "wpfIntrest",
-      "projectPath": "C:\\Users\\HP\\source\\repos\\ITABICH\\IIP-IsmailTabich-2122\\02.IIP-variabelen en berekeningen\\wpfIntrest\\wpfIntrest.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\ITABICH\\IIP-IsmailTabich-2122\\02.IIP-variabelen en berekeningen\\wpfIntrest\\WpfInterest.csproj",
+      "projectName": "WpfInterest",
+      "projectPath": "C:\\Users\\HP\\source\\repos\\ITABICH\\IIP-IsmailTabich-2122\\02.IIP-variabelen en berekeningen\\wpfIntrest\\WpfInterest.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\HP\\source\\repos\\ITABICH\\IIP-IsmailTabich-2122\\02.IIP-variabelen en berekeningen\\wpfIntrest\\obj\\",
       "projectStyle": "PackageReference",
