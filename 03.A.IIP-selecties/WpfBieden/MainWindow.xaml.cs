@@ -54,16 +54,15 @@ namespace WpfBieden
             volgendBod = Convert.ToInt32(txtbxBod.Text);
 
 
-            if (hoogsteBod > volgendBod)
-            {
-                lblHoogsteBod.Content = $"Sorry, {hoogsteBieder} heeft met {hoogsteBod} euro nu het hoogste bod!";
-            }
-            else if (hoogsteBod < volgendBod)
+            if (hoogsteBod < volgendBod)
             {
                 lblHoogsteBod.Content = $"{volgendBieder} heeft met {volgendBod} euro nu het hoogste bod! ";
                 volgendBieder = hoogsteBieder;
                 volgendBod = hoogsteBod;
             }
+            else 
+
+                lblHoogsteBod.Content = $"Sorry, {hoogsteBieder} heeft met {hoogsteBod} euro nu het hoogste bod!";
         }
     }
 }
