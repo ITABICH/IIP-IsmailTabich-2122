@@ -5,9 +5,11 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfDatumKiezer", "WpfDatumKiezer\WpfDatumKiezer.csproj", "{3AAD6DEC-7744-4871-9C2A-ECD7BCED3995}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfGebruikersNaam", "WpfGebruikersNaam\WpfGebruikersNaam.csproj", "{2B26AC34-687E-442C-A2BA-BDF02A5D365E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfGebruikersNaam", "WpfGebruikersNaam\WpfGebruikersNaam.csproj", "{2B26AC34-687E-442C-A2BA-BDF02A5D365E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfProgressBar", "WpfProgressBar\WpfProgressBar.csproj", "{5E0921F3-50BE-4B82-8B8E-D18CE1C0CD3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfProgressBar", "WpfProgressBar\WpfProgressBar.csproj", "{5E0921F3-50BE-4B82-8B8E-D18CE1C0CD3E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfOxo", "WpfOxo\WpfOxo.csproj", "{ECCABD0C-8F95-4D44-BC28-F83FF81CB5AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{5E0921F3-50BE-4B82-8B8E-D18CE1C0CD3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E0921F3-50BE-4B82-8B8E-D18CE1C0CD3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E0921F3-50BE-4B82-8B8E-D18CE1C0CD3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECCABD0C-8F95-4D44-BC28-F83FF81CB5AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECCABD0C-8F95-4D44-BC28-F83FF81CB5AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECCABD0C-8F95-4D44-BC28-F83FF81CB5AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECCABD0C-8F95-4D44-BC28-F83FF81CB5AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
