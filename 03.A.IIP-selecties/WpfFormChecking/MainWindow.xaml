@@ -17,7 +17,7 @@
         <TextBlock Text="Interesse:" HorizontalAlignment="Left" Height="37" Margin="10,319,0,0" VerticalAlignment="Top" Width="98" FontSize="20"/>
         <TextBox x:Name="txtbxNaam" HorizontalAlignment="Left" Margin="185,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="354" Height="37" FontSize="20"/>
         <TextBox x:Name="txtBxEmail" HorizontalAlignment="Left" Margin="185,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="354" Height="37" FontSize="20"/>
-        <DatePicker x:Name="DatePicker" HorizontalAlignment="Left" Height="32" Margin="185,171,0,0" VerticalAlignment="Top" Width="161" FontSize="20"/>
+        <DatePicker x:Name="datePicker" HorizontalAlignment="Left" Height="32" Margin="185,171,0,0" VerticalAlignment="Top" Width="161" FontSize="20"/>
         <ComboBox x:Name="comboBxProfiel" HorizontalAlignment="Left" Height="32" Margin="185,208,0,0" VerticalAlignment="Top" Width="215" BorderBrush="#FF6D6B6B" Text=""/>
         <PasswordBox x:Name="pwBxPasswoord" HorizontalAlignment="Left" Height="37" Margin="185,245,0,0" VerticalAlignment="Top" Width="258" FontSize="20"/>
         <Viewbox Height="20" Width="20"  Margin="304,297,476,317"/>
@@ -33,8 +33,8 @@
         <Label x:Name="lblResultaat" Content="" HorizontalAlignment="Left" Height="38" Margin="168,428,0,0" VerticalAlignment="Top" Width="316" FontSize="18"/>
         <RadioButton x:Name="rbtnMan" Content="Man" HorizontalAlignment="Left" Height="22" Margin="185,290,0,0" VerticalAlignment="Top" Width="49" Checked ="rbtnMan_Checked"/>
         <RadioButton x:Name="rbtnVrouw" Content="Vrouw" HorizontalAlignment="Left" Height="22" Margin="268,289,0,0" VerticalAlignment="Top" Width="49" Checked="rbtnVrouw_Checked" />
-        <CheckBox x:Name="chkBxProgrammeren" Content="Programmeren" HorizontalAlignment="Left" Height="27" Margin="185,326,0,0" VerticalAlignment="Top" Width="142"/>
-        <CheckBox x:Name="chkBxNetwerk" Content="Netwerk" HorizontalAlignment="Left" Height="27" Margin="185,358,0,0" VerticalAlignment="Top" Width="142"/>
-        <CheckBox x:Name="chkBxBusiness" Content="Business" HorizontalAlignment="Left" Height="27" Margin="185,390,0,0" VerticalAlignment="Top" Width="142"/>
+        <CheckBox x:Name="chkBxProgrammeren" Content="Programmeren" HorizontalAlignment="Left" Height="27" Margin="185,326,0,0" VerticalAlignment="Top" Width="142" Checked="chkBxProgrammeren_Checked"/>
+        <CheckBox x:Name="chkBxNetwerk" Content="Netwerk" HorizontalAlignment="Left" Height="27" Margin="185,358,0,0" VerticalAlignment="Top" Width="142" Checked="chkBxNetwerk_Checked"/>
+        <CheckBox x:Name="chkBxBusiness" Content="Business" HorizontalAlignment="Left" Height="27" Margin="185,390,0,0" VerticalAlignment="Top" Width="142" Checked="chkBxBusiness_Checked"/>
     </Grid>
 </Window>

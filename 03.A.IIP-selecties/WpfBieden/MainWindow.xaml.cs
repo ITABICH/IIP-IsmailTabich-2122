@@ -23,46 +23,30 @@ namespace WpfBieden
         int hoogsteBod;
         string hoogsteBieder;
 
-
         public MainWindow()
         {
             InitializeComponent();
+
             lblHoogsteBod.Content = "Er is nog geen bod uitgrebracht";
         }
 
         private void btnBod_Click(object sender, RoutedEventArgs e)
         {
-            int bod;
-            string bieder;
-
-
-            bieder = txtbxNaam.Text;
-
-            bod = Convert.ToInt32(txtbxBod.Text);
-
-
-            lblHoogsteBod.Content = $"{bieder} heeft met {bod} euro nu het hoogste bod! ";
-            hoogsteBod = bod;
-            hoogsteBieder = bieder;
-
-
-            int volgendBod;
-            string volgendBieder;
-
-            volgendBieder = txtbxNaam.Text;
-
-            volgendBod = Convert.ToInt32(txtbxBod.Text);
-
-
-            if (hoogsteBod < volgendBod)
+            string bieder = txtbxNaam.Text;
+            int bod = Convert.ToInt32(txtbxBod.Text);
+            if (bod > hoogsteBod)
             {
-                lblHoogsteBod.Content = $"{volgendBieder} heeft met {volgendBod} euro nu het hoogste bod! ";
-                volgendBieder = hoogsteBieder;
-                volgendBod = hoogsteBod;
-            }
-            else 
+                hoogsteBieder = bieder;
+                hoogsteBod = bod;
 
+                lblHoogsteBod.Content = $"{hoogsteBieder} heeft met {hoogsteBod} euro nu het hoogste bod! ";
+
+            }
+            else
                 lblHoogsteBod.Content = $"Sorry, {hoogsteBieder} heeft met {hoogsteBod} euro nu het hoogste bod!";
+
+            txtbxBod.Text = "";
+            txtbxNaam.Text = "";
         }
     }
 }

@@ -32,7 +32,7 @@ namespace WpfFormChecking
         {
             txtbxNaam.Text = "";
             txtBxEmail.Text = "";
-            DatePicker.SelectedDate = null;
+            datePicker.SelectedDate = null;
             comboBxProfiel.Items.Clear();
             pwBxPasswoord.Clear();
             rbtnMan.IsChecked = false;
@@ -79,7 +79,7 @@ namespace WpfFormChecking
                 aantalFouten++;
             }
 
-            if (DatePicker.SelectedDate == null) 
+            if (datePicker.SelectedDate == null) 
             {
                 lblGeboortedatum.Content = "Datum moet geselecteerd zijn!";
                 lblGeboortedatum.Foreground = Brushes.Red;
@@ -121,7 +121,7 @@ namespace WpfFormChecking
             lblResultaat.Foreground = Brushes.Red;
 
             ///Als alles ingevuld is
-            if (txtbxNaam.Text != "" && txtBxEmail.Text != "" && DatePicker.SelectedDate != null && 
+            if (txtbxNaam.Text != "" && txtBxEmail.Text != "" && datePicker.SelectedDate != null && 
                 comboBxProfiel.SelectedItem != null && pwBxPasswoord.Password.ToString() != "" && 
                 (rbtnMan.IsChecked != false || rbtnVrouw.IsChecked != false) && 
                 (chkBxProgrammeren.IsChecked != false || chkBxNetwerk.IsChecked != false || chkBxBusiness.IsChecked != false))
@@ -132,7 +132,7 @@ namespace WpfFormChecking
                 ///Alles wissen
                 txtbxNaam.Text = "";
                 txtBxEmail.Text = "";
-                DatePicker.SelectedDate = null;
+                datePicker.SelectedDate = null;
                 comboBxProfiel.Items.Clear();
                 pwBxPasswoord.Clear();
                 rbtnMan.IsChecked = false;
@@ -149,6 +149,33 @@ namespace WpfFormChecking
                 lblGeslacht.Content = "";
                 lblInteresse.Content = "";
 
+            }
+        }
+
+        private void chkBxProgrammeren_Checked(object sender, RoutedEventArgs e)
+        {
+            if(chkBxProgrammeren.IsChecked == true)
+            {
+                chkBxBusiness.IsChecked = false;
+                chkBxNetwerk.IsChecked= false;
+            }
+        }
+
+        private void chkBxNetwerk_Checked(object sender, RoutedEventArgs e)
+        {
+            if (chkBxNetwerk.IsChecked == true)
+            {
+                chkBxBusiness.IsChecked = false;
+                chkBxProgrammeren.IsChecked = false;
+            }
+        }
+
+        private void chkBxBusiness_Checked(object sender, RoutedEventArgs e)
+        {
+            if (chkBxBusiness.IsChecked == true)
+            {
+                chkBxNetwerk.IsChecked = false;
+                chkBxProgrammeren.IsChecked = false;
             }
         }
     }

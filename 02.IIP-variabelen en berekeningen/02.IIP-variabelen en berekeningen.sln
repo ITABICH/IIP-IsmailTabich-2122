@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleKarakter", "ConsoleK
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleHms", "ConsoleHms\ConsoleHms.csproj", "{6D168C0D-CC64-4858-A279-B4009E0459C4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfInterest", "wpfIntrest\WpfInterest.csproj", "{FC983FC6-9369-4E76-AEEB-9C5C2696671B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfIntrest", "wpfIntrest\WpfIntrest.csproj", "{FC983FC6-9369-4E76-AEEB-9C5C2696671B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfWinkel", "WpfWinkel\WpfWinkel.csproj", "{F4F26658-DB0C-480D-8362-D5933EE48C58}"
 EndProject

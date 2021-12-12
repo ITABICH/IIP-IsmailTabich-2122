@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfProgressBar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfProgressBar"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Height="26" Margin="26,140,0,0" TextWrapping="Wrap" Text="Voortgang:" VerticalAlignment="Top" Width="108" FontSize="20"/>
+        <Rectangle HorizontalAlignment="Left" Height="27" Margin="154,140,0,0" Stroke="Black" VerticalAlignment="Top" Width="30"/>
+        <Button Content="START" HorizontalAlignment="Left" Height="42" Margin="154,240,0,0" VerticalAlignment="Top" Width="158" FontSize="24" FontWeight="Bold"/>
+        <Button Content="ANNULEREN" HorizontalAlignment="Left" Height="42" Margin="400,240,0,0" VerticalAlignment="Top" Width="158" FontSize="22" FontWeight="Bold"/>
+        <Label x:Name="lblPercentage" Content="aa" Margin="698,154,-698,-154"/>
+
+
+    </Grid>
+</Window>
