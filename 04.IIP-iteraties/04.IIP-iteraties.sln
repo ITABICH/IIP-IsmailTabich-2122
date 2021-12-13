@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleLancering", "Console
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleRaden", "ConsoleRaden\ConsoleRaden.csproj", "{5B97FF1C-17B1-4DF6-92EF-71D0694C0619}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleOnderBoven", "ConsoleOnderBoven\ConsoleOnderBoven.csproj", "{E3733DC4-549F-44E7-9C8A-B6F6762DEB9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5B97FF1C-17B1-4DF6-92EF-71D0694C0619}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B97FF1C-17B1-4DF6-92EF-71D0694C0619}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B97FF1C-17B1-4DF6-92EF-71D0694C0619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3733DC4-549F-44E7-9C8A-B6F6762DEB9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3733DC4-549F-44E7-9C8A-B6F6762DEB9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3733DC4-549F-44E7-9C8A-B6F6762DEB9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3733DC4-549F-44E7-9C8A-B6F6762DEB9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

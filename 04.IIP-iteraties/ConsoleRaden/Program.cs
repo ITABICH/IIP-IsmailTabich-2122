@@ -15,6 +15,8 @@
             if (poging > 3)
             {
                 Console.WriteLine("Volgende keer beter");
+                Console.ReadKey();
+                Environment.Exit(0);
             }
             else
             Console.Write($"Poging {poging}: ");

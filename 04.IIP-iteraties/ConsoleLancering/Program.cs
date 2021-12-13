@@ -13,6 +13,7 @@
         }
 
         Console.WriteLine("Lift off!");
+        Console.ReadKey();
 
     }
 }
