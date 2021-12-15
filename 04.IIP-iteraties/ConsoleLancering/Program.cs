@@ -7,9 +7,7 @@
 
         for (int i = seconden; i > 0; i--)
         {
-            seconden = i;
-            Console.Write($"{seconden} ...");
-            Console.ReadLine();
+            Console.WriteLine($"{i} ...");
         }
 
         Console.WriteLine("Lift off!");

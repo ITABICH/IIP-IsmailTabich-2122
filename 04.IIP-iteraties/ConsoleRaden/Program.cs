@@ -2,29 +2,30 @@
 {
     static void Main(String[] args)
     {
-        int geheimGetal = 3;
+        Random rnd = new Random();
+        int geheimGetal = (rnd.Next(0, 10));
         Console.WriteLine("Raad een getal tussen 0 en 10");
 
 
-        int poging = 0;
-        int getal;
+        int pogingNr = 0;
+        int poging;
        
         do
         {
-            poging++;
-            if (poging > 3)
+            pogingNr++;
+            if (pogingNr > 3)
             {
                 Console.WriteLine("Volgende keer beter");
                 Console.ReadKey();
                 Environment.Exit(0);
             }
             else
-            Console.Write($"Poging {poging}: ");
-            getal = Convert.ToInt32(Console.ReadLine());
+            Console.Write($"Poging {pogingNr}: ");
+            poging = Convert.ToInt32(Console.ReadLine());
             
             
         }
-        while (getal != geheimGetal);
+        while (poging != geheimGetal);
         Console.WriteLine("Geraden!");
     }
 }

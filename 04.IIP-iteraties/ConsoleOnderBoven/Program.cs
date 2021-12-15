@@ -11,10 +11,16 @@
         Console.Write("Geef een bovengrens: ");
         bovenGrens = Convert.ToInt32(Console.ReadLine());
 
-        while (bovenGrens <= onderGrens)
-        {
-        Console.Write("Bovengrend mag niet kleiner of gelijk zijn dan ondergrens. Geef een bovengrens: ");
+        while (bovenGrens < onderGrens)
+        { 
+            Console.Write("Bovengrens mag niet kleiner zijn dan ondergrens. Geef een bovengrens: ");
         bovenGrens = Convert.ToInt32(Console.ReadLine());
+        }
+        while (bovenGrens == onderGrens)
+        {
+            Console.Write("Bovengrens mag niet gelijk zijn aan ondergrens. Geef een bovengrens: ");
+            bovenGrens = Convert.ToInt32(Console.ReadLine());
+
         }
         Console.WriteLine($"Bereik: van {onderGrens} tot {bovenGrens}");
         Console.ReadKey();

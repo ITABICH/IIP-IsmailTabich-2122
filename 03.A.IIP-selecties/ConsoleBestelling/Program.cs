@@ -4,8 +4,16 @@
     const int PRIJS_FUNGHI = 10;
     const int PRIJS_DIABOLO = 11;
     const int PRIJS_BEZORGING = 3;
+
+
     static void Main(string[] agrs)
     {
+        string pizzakeuze = "";
+        string grootteKeuze = "";
+        string bezorgingsKeuze = "";
+        double totaal = 0;
+
+
         Console.Write(@"PIZZA BESTELLING
 ================
 
@@ -16,7 +24,6 @@ c) Diabolo 11 euro
 >>> Wat is je keuze? ");
 
         char pizza = Convert.ToChar(Console.ReadLine());
-        char pizzaKeuze = pizza;
 
 
         Console.Write(@"Kies de grootte:
@@ -26,40 +33,38 @@ c) 25 cm (groot + 20%)
 >>> Wat is je keuze? ");
 
         char grootte = Convert.ToChar(Console.ReadLine());
-        char grootteKeuze = grootte;
-
 
         Console.WriteLine("Thuis bezorgen (3 euro extra)? ja/nee: ");
         string bezorging = Console.ReadLine();
-        string bezorgingsKeuze = bezorging;
 
-        Console.WriteLine($"Jouw bestelling: 1 pizza {pizzaKeuze} {grootteKeuze}, voor  euro, {bezorgingsKeuze}");
-        switch (pizzaKeuze)
+        switch (pizza)
         {
-            case 'a': Console.WriteLine("Margharita"); break;
+            case 'a': pizzakeuze = "Margharita"; totaal += PRIJS_MARGHERITA; break;
             ///prijs = +PRIJS_MARGHERITA;
-            case 'b': Console.WriteLine("Funghi"); break;
+            case 'b': pizzakeuze = "Funghi"; totaal += PRIJS_FUNGHI; break;
             ///prijs = +PRIJS_FUNGHI;
-            case 'c': Console.WriteLine("Diabolo"); break;
+            case 'c': pizzakeuze = "Diabolo"; totaal += PRIJS_FUNGHI; break;
             ///prijs = PRIJS_DIABOLO;
-            default: Environment.Exit(0); break;
+            default:  break;
         }
-        switch (grootteKeuze)
+        switch (grootte)
         {
-            case 'a': Console.WriteLine("klein"); break;
+            case 'a': grootteKeuze = "kleine"; totaal *= 0.8; break;
             ///totaal = prijs - ((prijs / 100) * 20);
-            case 'b': Console.WriteLine("normaal"); break;
-            case 'c': Console.WriteLine("groot"); break;
+            case 'b': grootteKeuze = "normale"; totaal *= 1; break;
+            case 'c': grootteKeuze = "grote"; totaal *= 1.2; break;
             ///totaal = prijs + ((prijs / 100) * 20);
-            default: Environment.Exit(0); break;
+            default: ; break;
         }
 
-        switch (bezorgingsKeuze)
+        switch (bezorging)
         {
-            case "ja": Console.WriteLine("thuis bezorging"); break;
+            case "ja": bezorgingsKeuze = "thuis bezorging"; totaal += PRIJS_BEZORGING; break;
             ///totaal = +PRIJS_BEZORGING;
-            case "nee": Console.WriteLine("afhalen"); break;
-            default: Environment.Exit(0); break;
+            case "nee": bezorgingsKeuze = "afhalen"; break;
+            default: break;
         }
+        Console.WriteLine($"Jouw bestelling: 1 {grootteKeuze} pizza {pizzakeuze} , voor  {totaal} euro, {bezorgingsKeuze}");
+
     }
 }
