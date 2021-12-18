@@ -51,9 +51,6 @@ c. stoppen");
             {
                 Console.WriteLine("Ongeldige keuze");
             }
-
-
-
-        } while (keuze != 'c');        
+        } while (keuze != 'c');
     }
 }

@@ -11,9 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleOnderBoven", "Consol
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleSom", "ConsoleSom\ConsoleSom.csproj", "{7AD213AC-40F8-4A53-B8DE-5CBF9CDB50A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleBankautomaat", "ConsoleBankautomaat\ConsoleBankautomaat.csproj", "{2096BB0A-819B-4838-830C-A0591E1BE3FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleBankautomaat", "ConsoleBankautomaat\ConsoleBankautomaat.csproj", "{2096BB0A-819B-4838-830C-A0591E1BE3FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfPriemgetal", "WpfPriemgetal\WpfPriemgetal.csproj", "{C8EE1682-4DD6-4583-AA06-0514693E4B9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfPriemgetal", "WpfPriemgetal\WpfPriemgetal.csproj", "{C8EE1682-4DD6-4583-AA06-0514693E4B9D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleKlinkers", "ConsoleKlinkers\ConsoleKlinkers.csproj", "{CF55A064-AF77-46DD-85B7-1BA1CCA7FE17}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfBoodschappenlijst", "WpfBoodschappenlijst\WpfBoodschappenlijst.csproj", "{30B2F8D4-8F9B-419B-BA51-4FDFC27AB71A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{C8EE1682-4DD6-4583-AA06-0514693E4B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8EE1682-4DD6-4583-AA06-0514693E4B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8EE1682-4DD6-4583-AA06-0514693E4B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF55A064-AF77-46DD-85B7-1BA1CCA7FE17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF55A064-AF77-46DD-85B7-1BA1CCA7FE17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF55A064-AF77-46DD-85B7-1BA1CCA7FE17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF55A064-AF77-46DD-85B7-1BA1CCA7FE17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30B2F8D4-8F9B-419B-BA51-4FDFC27AB71A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30B2F8D4-8F9B-419B-BA51-4FDFC27AB71A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30B2F8D4-8F9B-419B-BA51-4FDFC27AB71A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30B2F8D4-8F9B-419B-BA51-4FDFC27AB71A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

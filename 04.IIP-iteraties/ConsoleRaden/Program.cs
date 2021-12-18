@@ -22,8 +22,6 @@
             else
             Console.Write($"Poging {pogingNr}: ");
             poging = Convert.ToInt32(Console.ReadLine());
-            
-            
         }
         while (poging != geheimGetal);
         Console.WriteLine("Geraden!");
