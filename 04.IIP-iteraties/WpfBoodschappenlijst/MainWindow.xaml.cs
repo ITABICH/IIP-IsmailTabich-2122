@@ -24,5 +24,20 @@ namespace WpfBoodschappenlijst
         {
             InitializeComponent();
         }
+
+        private void lstBoodschap_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            foreach (ListBoxItem listBoxItem in lstBoodschap.SelectedItems)
+            {
+                lblSelecteren.Content = listBoxItem.Content;
+
+                do
+                {
+                    lblSelecteren.Content = listBoxItem.Content;
+                }
+                while(listBoxItem == null);
+            }
+
+        }
     }
 }

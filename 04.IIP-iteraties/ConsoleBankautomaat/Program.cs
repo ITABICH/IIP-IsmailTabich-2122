@@ -27,18 +27,24 @@ c. stoppen");
                     case 'b': gekozenKeuze = STORTEN; break;
                     case 'c': gekozenKeuze = STOP; break;
                 }
+
                 Console.Write($"{gekozenKeuze}");
-                invoer = Convert.ToInt32(Console.ReadLine());
 
                 if (gekozenKeuze == AFHALEN)
                 {
+                    invoer = Convert.ToInt32(Console.ReadLine());
+
                     saldo -= invoer;
                     Console.WriteLine($"Het niewe saldo is {saldo}");
+                    Console.ReadLine();
                 }
                 else if (gekozenKeuze == STORTEN)
                 {
+                    invoer = Convert.ToInt32(Console.ReadLine());
+
                     saldo += invoer;
                     Console.WriteLine($"Het niewe saldo is {saldo}");
+                    Console.ReadLine();
                 }
                 else if (gekozenKeuze == STOP)
                 {
@@ -50,6 +56,7 @@ c. stoppen");
             else
             {
                 Console.WriteLine("Ongeldige keuze");
+                Console.ReadLine();
             }
         } while (keuze != 'c');
     }

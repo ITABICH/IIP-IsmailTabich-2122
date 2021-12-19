@@ -52,12 +52,11 @@ class Klinkers
         Console.WriteLine($"Deze tekst bevat {aantalKlinkers} klinker, {aantalMedeklinkers} medeklinkers, " +
             $"{aantalCijfers} cijfers, {aantalSpaties} spaties en {aantalSymbolen} symbolen.");
 
-
+        ///In het Ascci geheimschrift
         Console.Write("In het geheimschrift: ");
 
-        ///In het Ascci geheimschrift
         ///Voor elke karakter van de tekst
-        foreach(char letters in tekst)
+        foreach (char letters in tekst)
         {
             ///Volgende karakter van de Ascci tabel
             Console.Write((char)Convert.ToChar(letters+1));
