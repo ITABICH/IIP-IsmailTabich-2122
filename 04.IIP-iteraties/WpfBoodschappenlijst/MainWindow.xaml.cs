@@ -27,15 +27,10 @@ namespace WpfBoodschappenlijst
 
         private void lstBoodschap_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            string tekst = "Je selecteerde : ";
             foreach (ListBoxItem listBoxItem in lstBoodschap.SelectedItems)
             {
-                lblSelecteren.Content = listBoxItem.Content;
-
-                do
-                {
-                    lblSelecteren.Content = listBoxItem.Content;
-                }
-                while(listBoxItem == null);
+                lblSelecteren.Content = tekst += listBoxItem.Content + " ";
             }
 
         }
