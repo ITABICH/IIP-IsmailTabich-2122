@@ -22,6 +22,5 @@
         string tafel = DrukTafel(getal, lengte);
         Console.WriteLine(tafel);
         Console.ReadKey();
-
     }
 }
