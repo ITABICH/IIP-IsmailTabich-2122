@@ -1,15 +1,14 @@
 ﻿class Tafels
 {
-    private static void DrukTafel(int getal, int lengte)
+    private static string DrukTafel(int get, int len)
     {
         // vervolledig hier
-        for (int i = 1; i <= lengte; i++)
+        string tekst = "";
+        for (int i = 1; i <= len; i++)
         {
-            int resultaat = getal * i;
-            Console.WriteLine($"{getal} * {i} = {resultaat}");
+            tekst += $"{get} x {i} = {get * i}" + Environment.NewLine;
         }
-
-        Console.ReadKey();
+        return tekst;
     }
 
     static void Main(String[] args)
@@ -20,7 +19,9 @@
         Console.Write("Geef een lengte: ");
         int lengte = Convert.ToInt32(Console.ReadLine());
 
-        DrukTafel(getal, lengte);
+        string tafel = DrukTafel(getal, lengte);
+        Console.WriteLine(tafel);
+        Console.ReadKey();
 
     }
 }

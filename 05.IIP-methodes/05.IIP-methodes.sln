@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTafels", "ConsoleTafels\ConsoleTafels.csproj", "{A23F2C13-5AB9-4421-AA67-4E8A3E8B5BF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleTafels", "ConsoleTafels\ConsoleTafels.csproj", "{A23F2C13-5AB9-4421-AA67-4E8A3E8B5BF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleFaculteit", "ConsoleFaculteit\ConsoleFaculteit.csproj", "{196BA911-07F2-4758-B02F-AF09C06910F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleSchikkeljaar", "ConsoleSchikkeljaar\ConsoleSchikkeljaar.csproj", "{E167446A-526C-49E3-A7AC-E6A37B74AE76}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleTemperatuur", "ConsoleTemperatuur\ConsoleTemperatuur.csproj", "{BADBF439-D614-4E87-B0E9-67A6854ED3A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCarConfigurator", "WpfCarConfigurator\WpfCarConfigurator.csproj", "{6F7AE3D6-A598-45A6-8517-6795A88DBBCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{A23F2C13-5AB9-4421-AA67-4E8A3E8B5BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A23F2C13-5AB9-4421-AA67-4E8A3E8B5BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A23F2C13-5AB9-4421-AA67-4E8A3E8B5BF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{196BA911-07F2-4758-B02F-AF09C06910F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{196BA911-07F2-4758-B02F-AF09C06910F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{196BA911-07F2-4758-B02F-AF09C06910F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{196BA911-07F2-4758-B02F-AF09C06910F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E167446A-526C-49E3-A7AC-E6A37B74AE76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E167446A-526C-49E3-A7AC-E6A37B74AE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E167446A-526C-49E3-A7AC-E6A37B74AE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E167446A-526C-49E3-A7AC-E6A37B74AE76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BADBF439-D614-4E87-B0E9-67A6854ED3A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BADBF439-D614-4E87-B0E9-67A6854ED3A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BADBF439-D614-4E87-B0E9-67A6854ED3A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BADBF439-D614-4E87-B0E9-67A6854ED3A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F7AE3D6-A598-45A6-8517-6795A88DBBCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F7AE3D6-A598-45A6-8517-6795A88DBBCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F7AE3D6-A598-45A6-8517-6795A88DBBCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F7AE3D6-A598-45A6-8517-6795A88DBBCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
