@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfCarConfigurator"
         mc:Ignorable="d"
-        Title="Car config" Height="600" Width="1200">
+        Title="Car config" Height="600" Width="1300">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Height="35" Margin="49,43,0,0" TextWrapping="Wrap" Text="MODEL" VerticalAlignment="Top" Width="89" FontSize="24" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Left" Height="35" Margin="49,102,0,0" TextWrapping="Wrap" Text="KLEUR" VerticalAlignment="Top" Width="89" FontSize="24" FontWeight="Bold"/>
@@ -23,6 +23,10 @@
         <CheckBox Content="Deluxe matjes (+450 euro)" HorizontalAlignment="Left" Height="18" Margin="277,292,0,0" VerticalAlignment="Top" Width="163"/>
         <CheckBox Content="Aluminium velgen (+300 euro)" HorizontalAlignment="Left" Height="18" Margin="277,327,0,0" VerticalAlignment="Top" Width="184"/>
         <Label Content="82000 euro" HorizontalAlignment="Left" Height="35" Margin="277,455,0,0" VerticalAlignment="Top" Width="184" FontSize="22" FontWeight="Normal" FontStyle="Italic"/>
+        <Image HorizontalAlignment="Left" Height="199" Margin="700,45,0,0" VerticalAlignment="Top" Width="418"/>
+        <Image HorizontalAlignment="Left" Height="105" Margin="277,345,0,0" VerticalAlignment="Top" Width="287"/>
+        <Image HorizontalAlignment="Left" Height="127" Margin="587,345,0,0" VerticalAlignment="Top" Width="315"/>
+        <Image HorizontalAlignment="Left" Height="136" Margin="945,336,0,0" VerticalAlignment="Top" Width="329"/>
 
     </Grid>
 </Window>

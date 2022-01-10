@@ -1,6 +1,6 @@
-﻿class ConsoleSchikkeljaar
+﻿class ConsoleSchrikkeljaar
 {
-    private static string Schikkeljaar(int jaar)
+    private static string Schrikkeljaar(int jaar)
     {
         string antwoord = "";
         if (jaar <= 0)
@@ -9,11 +9,11 @@
         }
         else if (jaar % 4 == 0 && jaar % 100 != 0 || jaar % 400 == 0)
         {
-            antwoord += $"Het jaar {jaar} is een schikkeljaar";
+            antwoord += $"Het jaar {jaar} is een schrikkeljaar";
         }
         else
         {
-            antwoord += $"Het jaar {jaar} is geen schikkeljaar";
+            antwoord += $"Het jaar {jaar} is geen schrikkeljaar";
         }
         return antwoord;
     }
@@ -34,7 +34,7 @@
     }
     static void Main(String[] Args)
     {
-        Console.WriteLine(@"SCHIKKELJAAR
+        Console.WriteLine(@"SCHRIKKELJAAR
 ============");
         
         DrukMenu();
