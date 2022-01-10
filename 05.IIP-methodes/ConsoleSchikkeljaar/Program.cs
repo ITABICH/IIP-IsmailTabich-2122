@@ -26,7 +26,7 @@
             Console.Write("Geef een jaartal: ");
             invoer = Convert.ToInt32(Console.ReadLine());
 
-            string resultaat = Schikkeljaar(invoer);
+            string resultaat = Schrikkeljaar(invoer);
             Console.WriteLine(resultaat);
         } while (invoer != 0);
 
