@@ -27,15 +27,6 @@ namespace WpfKwistet
 
         private void btnToevoegen_Click(object sender, RoutedEventArgs e)
         {
-            if (txtBxNaam.Text == "")
-            {
-                btnToevoegen.IsEnabled = false;
-            }
-            else
-            {
-                btnToevoegen.IsEnabled = true;
-            }
-
             lstBx.Items.Add(txtBxNaam.Text);
             txtBxNaam.Text = "";
         }
@@ -47,10 +38,14 @@ namespace WpfKwistet
 
         private void btnWijzigen_Click(object sender, RoutedEventArgs e)
         {
-            lstBx.SelectedItem = txtBxNaam.Text;
+            lstBx.Items.RemoveAt(lstBx.SelectedIndex);
+            lstBx.Items.Add(txtBxNaam.Text);
             txtBxNaam.Text = "";
+        }
 
-
+        private void btnAllesVerwijderen_Click(object sender, RoutedEventArgs e)
+        {
+            lstBx.Items.Clear();
         }
     }
 }

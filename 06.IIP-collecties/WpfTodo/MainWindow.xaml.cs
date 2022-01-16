@@ -23,30 +23,32 @@ namespace WpfTodo
         public MainWindow()
         {
             InitializeComponent();
-
         }
 
         private void btnToevoegen_Click(object sender, RoutedEventArgs e)
         {
-             
-            
             if (cmbBx.Text == "laag")
             {
                 lstBx.Items.Add(txtBxTaak.Text);
                 lstBx.Foreground = Brushes.Green;
                 
             }
-            else if (cmbBx.Text == "medium")
+            if (cmbBx.Text == "medium")
             {
                 lstBx.Items.Add(txtBxTaak.Text);
                 lstBx.Foreground = Brushes.Orange;
             }
-            else
+            if (cmbBx.Text == "hoog")
             {
                 lstBx.Items.Add(txtBxTaak.Text);
                 lstBx.Foreground= Brushes.Red;
             }
+
         }
 
+        private void btnVerwijderen_Click(object sender, RoutedEventArgs e)
+        {
+            lstBx.Items.Remove(lstBx.SelectedItem);
+        }
     }
 }

@@ -13,6 +13,7 @@
         <Button x:Name="btnVerwijderen" Content="Verwijderen" HorizontalAlignment="Left" Height="20" Margin="125,147,0,0" VerticalAlignment="Top" Width="131" Click="btnVerwijderen_Click"/>
         <Button x:Name="btnWijzigen" Content="Wijzigen" HorizontalAlignment="Left" Height="21" Margin="125,172,0,0" VerticalAlignment="Top" Width="131" Click="btnWijzigen_Click"/>
         <ListBox x:Name="lstBx" HorizontalAlignment="Left" Height="148" Margin="307,95,0,0" VerticalAlignment="Top" Width="143" />
+        <Button x:Name="btnAllesVerwijderen" Content="ALLES VERWIJDEREN" HorizontalAlignment="Left" Height="19" Margin="125,198,0,0" VerticalAlignment="Top" Width="131" Click="btnAllesVerwijderen_Click"/>
 
     </Grid>
 </Window>

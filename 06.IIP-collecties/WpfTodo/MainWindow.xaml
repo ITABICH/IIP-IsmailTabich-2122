@@ -17,6 +17,7 @@
         </ComboBox>
         <ListBox x:Name="lstBx" HorizontalAlignment="Left" Height="191" Margin="435,67,0,0" VerticalAlignment="Top" Width="194" />
         <Button x:Name="btnToevoegen" Content="TOEVOEGEN" HorizontalAlignment="Left" Height="22" Margin="283,130,0,0" VerticalAlignment="Top" Width="93" Click="btnToevoegen_Click"/>
+        <Button x:Name="btnVerwijderen" Content="Verwijderen" HorizontalAlignment="Left" Height="22" Margin="552,258,0,0" VerticalAlignment="Top" Width="77" Click="btnVerwijderen_Click"/>
 
     </Grid>
 </Window>
