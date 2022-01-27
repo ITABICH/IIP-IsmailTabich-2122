@@ -7,6 +7,24 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Canvas HorizontalAlignment="Center" Height="269" VerticalAlignment="Center" Width="800" Background="LightGray">
+            <Image x:Name="imgHarley" Height="60" Canvas.Left="5" Source="Fotos/HARLEY.png" Stretch="Fill" Canvas.Top="10" Width="123" StretchDirection="DownOnly"/>
+            <Image x:Name="imgTmax" Height="96" Canvas.Left="5" Source="Fotos/TMAX.png" Stretch="Fill" Width="123" Canvas.Top="75" StretchDirection="DownOnly"/>
+            <Image x:Name="imgBmw" Height="80" Canvas.Left="5" Source="Fotos/BMW.png" Stretch="Fill" Canvas.Top="179" Width="123" StretchDirection="DownOnly"/>
+            <Image x:Name="imgEinde" Height="269" Canvas.Left="673" Source="/Fotos/Einde.jpg" Stretch="Fill" Width="69"/>
+        </Canvas>
+        <Button x:Name="btnStart" Content="START" HorizontalAlignment="Left" Height="20" Margin="717,40,0,0" VerticalAlignment="Top" Width="52" FontWeight="Bold" Click="btnStart_Click" IsEnabled="False"/>
+        <Label Content="Wie gaat er winnen?" HorizontalAlignment="Left" Height="30" Margin="39,10,0,0" VerticalAlignment="Top" Width="119"/>
+        <TextBox x:Name="txtBxGok" HorizontalAlignment="Left" Height="20" Margin="163,15,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="58" TextAlignment="Center"/>
+        <Label Content="Inzet voor jouw winnaar!" HorizontalAlignment="Left" Height="30" Margin="39,45,0,0" VerticalAlignment="Top" Width="139"/>
+        <TextBox x:Name="txtBxInzet" HorizontalAlignment="Left" Height="20" Margin="183,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" TextAlignment="Center" RenderTransformOrigin="0.485,0.592"/>
+        <Button x:Name="btnMute" Content="MUTE" HorizontalAlignment="Left" Height="20" Margin="644,40,0,0" VerticalAlignment="Top" Width="52" FontWeight="Bold" Click="btnMute_Click" Background="Green" MouseRightButtonDown="btnMute_MouseRightButtonDown"/>
+        <Label Content="Keuze tussen: Harley, Tmax en Bmw" HorizontalAlignment="Left" Height="26" Margin="233,12,0,0" VerticalAlignment="Top" Width="161" FontSize="9" Foreground="Gray"/>
+        <Label x:Name="lblHarley" Content="Harley" HorizontalAlignment="Left" Height="56" Margin="143,103,0,0" VerticalAlignment="Top" Width="136" FontSize="36"/>
+        <Label x:Name="lblTmax" Content="Tmax" HorizontalAlignment="Left" Height="56" Margin="143,0,0,0" VerticalAlignment="Center" Width="136" FontSize="36"/>
+        <Label x:Name="lblBmw" Content="Bmw" HorizontalAlignment="Left" Height="56" Margin="143,284,0,0" VerticalAlignment="Top" Width="136" FontSize="36"/>
+        <Label x:Name="lblWinnaar" Content="" HorizontalAlignment="Center" Height="28" Margin="0,364,0,0" VerticalAlignment="Top" Width="322" HorizontalContentAlignment="Center"/>
+        <Label x:Name="lblMute" Content="" HorizontalAlignment="Left" Height="26" Margin="576,10,0,0" VerticalAlignment="Top" Width="193" FontSize="9" Foreground="Gray"/>
 
     </Grid>
 </Window>
