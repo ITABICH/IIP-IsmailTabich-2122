@@ -13,7 +13,7 @@
             <Image x:Name="imgBmw" Height="80" Canvas.Left="5" Source="Fotos/BMW.png" Stretch="Fill" Canvas.Top="179" Width="123" StretchDirection="DownOnly"/>
             <Image x:Name="imgEinde" Height="269" Canvas.Left="673" Source="/Fotos/Einde.jpg" Stretch="Fill" Width="69"/>
         </Canvas>
-        <Button x:Name="btnStart" Content="START" HorizontalAlignment="Left" Height="20" Margin="717,40,0,0" VerticalAlignment="Top" Width="52" FontWeight="Bold" Click="btnStart_Click" IsEnabled="False"/>
+        <Button x:Name="btnStart" Content="START" HorizontalAlignment="Left" Height="20" Margin="717,40,0,0" VerticalAlignment="Top" Width="52" FontWeight="Bold" Click="btnStart_Click" />
         <Label Content="Wie gaat er winnen?" HorizontalAlignment="Left" Height="30" Margin="39,10,0,0" VerticalAlignment="Top" Width="119"/>
         <TextBox x:Name="txtBxGok" HorizontalAlignment="Left" Height="20" Margin="163,15,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="58" TextAlignment="Center"/>
         <Label Content="Inzet voor jouw winnaar!" HorizontalAlignment="Left" Height="30" Margin="39,45,0,0" VerticalAlignment="Top" Width="139"/>
